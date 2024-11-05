@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+
+.parent{
+    display: flex;
+    background-color: brown;
+    color: black;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+.child-1{
+  align-items: center; 
+  display: flex;
+  gap: 10px; 
+  justify-content: space-around;
+  padding-right: 200px;
+}
+.child{
+    display: flex;
+    gap: 20p;
+justify-content: space-around;
+padding-left: 150px;
+}
+.child3{
+    background-color: aqua;
+    color: black;
+}
